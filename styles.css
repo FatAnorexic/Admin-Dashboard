@@ -1,12 +1,12 @@
 
 
 #page{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 150px 150px;
 }
 
-.sidebar, .content, .header{
+.sidebar, .content, .header,.settins{
     border: 1px solid black;
 
 }
@@ -16,8 +16,8 @@
 }
 
 #sidebar{
-    grid-column: 1/1;
-    grid-row:1/2;
+    grid-column: 1fr;
+    grid-row:2fr;
 }
 #header{
     grid-column: 2/2;
