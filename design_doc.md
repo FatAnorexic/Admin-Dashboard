@@ -6,10 +6,14 @@ There are three main areas: The dashboard side bar; The header with several butt
 ### Psuedo Code
 ```html
 container for whole body
-container for the 3 main sections(dashboard, header, content) and sub containter for content for projects and announcments/trending
+container for the 3 main sections(dashboard, header, content) 
+and sub containter for content for 
+projects and announcments/trending
 ```
 ```css
-grid objects. Dashboard-col:1st 2nd, row:1st last; header-col:2nd last, row: first 2nd; content-col:2nd last, row:2nd last.
+grid objects. Dashboard-col:1st 2nd, row:1st last; 
+header-col:2nd last, row: first 2nd; 
+content-col:2nd last, row:2nd last.
 ```
 
 ---
