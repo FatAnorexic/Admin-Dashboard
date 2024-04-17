@@ -1,32 +1,26 @@
 
 
-#page{
+body{
     display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px;
+    grid-template: auto 4fr/ 1fr 4fr;
+    min-height: 100vh;
 }
 
-.sidebar, .content, .header,.settings{
+.sidebar, .content, .header{
     border: 1px solid black;
 
 }
 
-.sidebar, .settings{
+.sidebar{
     background-color: skyblue;
 }
 
 #sidebar{
-    grid-column: 1fr;
-    grid-row:2fr;
+    grid-area: 1/1/-1/2;
 }
 #header{
-    grid-column: 2/2;
-    grid-row:1/1
+    grid-area: 1/2/2/-1;
+    
 }
 #content{
-    grid-column: 2/2;
-    grid-row:2/2;
-}
-#settings{
-    grid-area: auto;
 }
