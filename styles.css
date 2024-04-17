@@ -1,2 +1,12 @@
 
 
+#page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 4fr));
+}
+
+.sidebar, .content, .header{
+    border: 1px solid black;
+
+}
