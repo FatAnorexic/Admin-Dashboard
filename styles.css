@@ -2,11 +2,24 @@
 
 #page{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 4fr));
 }
 
 .sidebar, .content, .header{
     border: 1px solid black;
 
+}
+
+#sidebar{
+    grid-column: 1/2;
+    grid-row:1/4;
+}
+#header{
+    grid-column: 2/4;
+    grid-row:1/2
+}
+#content{
+    grid-column: 2/4;
+    grid-row:2/4
 }
