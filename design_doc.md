@@ -38,3 +38,26 @@ the last
 background color is light blue(grade against image to match)
 text is white, and font needs is different from rest of document.
 ```
+
+## Header
+The header consists of a search bar in the upper left hand corner that extends to the middle. Next to it is an
+alert bell and avatar with the user name. At the bottom left corner of the header there's the user avatar, a
+brief message, and the user name along with their user hangle. To the far right bottom, three bottons occupy the
+space: New, Upload, Share.
+
+### Psuedo Code
+```html
+(header container)>
+    div container.search bar>
+        input(type='text')
+    div conainter.notifacation bell
+    div container.user>
+        img.user avatar
+        span.user name{user name}
+    div container.user main>
+        img.user avatar main
+        p.greet{'Hi, there'}
+        span.user name main{User Name}+span.user handle{handle}
+    div conainter.buttons>
+        button.new+button.upload+button.share
+```
