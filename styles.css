@@ -22,5 +22,6 @@ body{
     grid-area: 1/2/2/4;
 }
 .content{
+    background-color: gray;
     grid-area: 2/2/4/-1;
 }
