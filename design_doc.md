@@ -50,6 +50,8 @@ settings, suppot, privacy.
 
 ```html
 div.sidebar#sidebar>
+    div.logo>
+        img.icon+div.items#dashboard
     ul.itmes>li.(class name){object name}*9
 ```
 ```css
