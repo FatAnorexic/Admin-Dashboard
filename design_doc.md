@@ -5,39 +5,66 @@ There are three main areas: The dashboard side bar; The header with several butt
 
 ### Psuedo Code
 ```html
-container for whole body
-container for the 3 main sections(dashboard, header, content) 
-and sub containter for content for 
-projects and announcments/trending
+body>
+    div.header#header
+    div.sidebar#sidbar
+    div.content#content
 ```
 ```css
-grid objects. Dashboard-col:1st 2nd, row:1st last; 
-header-col:2nd last, row: first 2nd; 
-content-col:2nd last, row:2nd last.
+body{
+    min-height 100vh /*This makes the grid fill the entire view port*/
+    display grid
+    margin 0
+    grid template area: 1fr 4fr/1fr 4fr
+}
+
+sidebar, content, header{
+    border(temporaray)
+    text align
+}
+
+sidebar{
+    background->light blue
+    grid area 1/1/-1/2
+}
+header{
+    grid area 1/2/2/4
+}
+content{
+    background->grayish
+    grid area 2/2/4/-1
+}
 ```
 
 ---
 
 ## Dashboard
 
-The dashboard consists of 9 objects, and there is a very visible gap bewteen the first 6 and last 3. 
+The dashboard consists of 9 objects, and there is a very visible gap bewteen the first 6 and last 3.
+The top of the dashboard section contains the logo along with an image for it.
+The unordered list is as follows: Home, profile, messages, history, tasks, communities, <'visible gap'>,
+settings, suppot, privacy.
+
 
 ### psuedo code
 
 ```html
-div container for whole dash board
-    unorded list of links to:
-        home, profile, messages, history, tasks,
-        communities, settings, support, privacy
+div.sidebar#sidebar>
+    ul.itmes>li.(class name){object name}*9
 ```
 ```css
-container is grid object extending from the first
-column to the second, and from the first row down to
-the last
+sidebar, content, header{
+    border(temporaray)
+    text align
+}
 
-background color is light blue(grade against image to match)
-text is white, and font needs is different from rest of document.
+sidebar{
+    background->light blue
+    grid area 1/1/-1/2
+}
 ```
+
+---
 
 ## Header
 The header consists of a search bar in the upper left hand corner that extends to the middle. Next to it is an
@@ -60,4 +87,28 @@ space: New, Upload, Share.
         span.user name main{User Name}+span.user handle{handle}
     div conainter.buttons>
         button.new+button.upload+button.share
+```
+
+
+---
+
+## Content
+Content is divided further into three sections: Your Projects, Announcments, trending.
+
+<b>Projects:</b> contains a series of cards laid out in a gird like pattern with a visible gap, where brief 
+descriptions of the project is displayed. This occupies 2/3 of the content box and is positioned to the left
+
+<b>Announcements:</b> is a column list of cards, not separated by any gap, where each card details a brief 
+summary of the events. This cell occupies the last 1/3 of the top of the content box, and 1/2 of the y-axis.
+
+<b>Trending:</b> Occupies the last 1/3 of the bottom content box as well, and takes up the second half of the y-axis
+in conent. It is another series of cards with no gap, comprised of user handles, their avatars, and the title of their
+trending project.
+
+### Psuedo Code
+
+```html
+div.content>
+    div.projects{Projects}>
+        div.cards#projects*6 + div.cards#announcments*3 + div.cards#trending*3 
 ```
