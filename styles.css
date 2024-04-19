@@ -43,6 +43,16 @@ body{
     display: grid;
     grid-template: 1fr 1fr/1fr 1fr;
 }
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+#search{
+    
+}
+
+/* Content section */
 .content{
     background-color: gray;
     grid-area: 2/2/4/-1;
