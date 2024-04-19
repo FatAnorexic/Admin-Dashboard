@@ -21,14 +21,22 @@ body{
     grid-template-rows: min-content min-content;
 }
 
+.logo, .items{
+    /* temporary */
+    border: 1px dotted red;
+}
+
 .logo{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .items{
     list-style-type: none;
 }
+
+/* Header section */
 
 .header{
     grid-area: 1/2/2/4;
