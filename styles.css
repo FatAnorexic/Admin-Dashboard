@@ -16,6 +16,8 @@ body{
 .sidebar{
     background-color: skyblue;
     grid-area: 1/1/-1/2;
+    display: grid;
+    grid-template-rows: min-content min-content;
 }
 
 .header{
