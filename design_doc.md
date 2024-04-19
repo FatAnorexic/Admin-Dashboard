@@ -93,7 +93,11 @@ space: New, Upload, Share.
     div conainter.buttons>
         button.new+button.upload+button.share
 ```
-
+```css
+header{
+    grid area 1/2/2/4;
+}
+```
 
 ---
 
