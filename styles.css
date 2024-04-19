@@ -20,6 +20,10 @@ body{
     grid-template-rows: min-content min-content;
 }
 
+.items{
+    list-style-type: none;
+}
+
 .header{
     grid-area: 1/2/2/4;
 }
