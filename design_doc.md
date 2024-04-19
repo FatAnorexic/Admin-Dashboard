@@ -52,7 +52,8 @@ settings, suppot, privacy.
 div.sidebar#sidebar>
     div.logo>
         img.icon+div.items#dashboard
-    ul.itmes>li.(class name){object name}*9
+    ul.itmes>li.(class name){object name}*6
+    ul.items.secondary>li.second{objectname}*3
 ```
 ```css
 sidebar, content, header{
