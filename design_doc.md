@@ -64,6 +64,8 @@ sidebar, content, header{
 sidebar{
     background->light blue
     grid area 1/1/-1/2
+    display grid
+    grid tracks row 1fr, 3fr, 2fr
 }
 ```
 
