@@ -82,8 +82,9 @@ space: New, Upload, Share.
 (header container)>
     div container.search bar>
         input(type='text')
-    div conainter.notifacation bell
+    
     div container.user>
+        div conainter.notifacation bell
         img.user avatar
         span.user name{user name}
     div container.user main>
