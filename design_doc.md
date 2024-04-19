@@ -97,6 +97,7 @@ space: New, Upload, Share.
 ```css
 header{
     grid area 1/2/2/4;
+    display grid 1fr 1fr/1fr 1fr;
 }
 ```
 
