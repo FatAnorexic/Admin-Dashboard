@@ -107,4 +107,6 @@ h2{
 }
 .an-trend{
     grid-column: 2/3;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
 }
