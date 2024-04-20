@@ -101,6 +101,7 @@ body{
     grid-column: 1/2;
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 1rem;
 }
 h2{
     grid-column: 1/-1;
@@ -114,4 +115,13 @@ h2{
     grid-column: 2/3;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+}
+.Announcments, .Trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#Announcments,#Trending{
+    /* temp */
+    border: 2px dotted black;
 }
