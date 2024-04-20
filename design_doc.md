@@ -106,6 +106,12 @@ search-bar{
 #search{
     width/height
 }
+
+usermain{
+    grid
+    grid template 1fr 1fr/auto 1fr
+    gap
+}
 ```
 
 ---
