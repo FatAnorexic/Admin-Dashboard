@@ -138,12 +138,12 @@ trending project.
 ```html
 div.content>
     div.projects{Projects}>
-        div.cards#projects*6 + 
+        div.cards#projects*6>div.color bar+div.project-info>h3+p^img*3
     div.an-trend>
         div.announcements{announcments}>
-            div.cards#announcments*3 
+            div.cards#announcments*3>h5+p 
         div.trending{trending}>
-            div.cards#trending*3 
+            div.cards#trending*3>img+h5+p 
 ```
 
 ```css
