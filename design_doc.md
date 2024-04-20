@@ -162,4 +162,7 @@ an-trend{
     column 2/3
     display grid | rows: repeat(2, 1fr)
 }
+announcments, trending{
+    display flex | flex-direction: columns| justify-content: space-around
+}
 ```
