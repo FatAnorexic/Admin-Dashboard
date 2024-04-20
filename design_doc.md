@@ -139,8 +139,27 @@ trending project.
 div.content>
     div.projects{Projects}>
         div.cards#projects*6 + 
-    div.announcements{announcments}>
-        div.cards#announcments*3 
-    div.trending{trending}>
-        div.cards#trending*3 
+    div.an-trend>
+        div.announcements{announcments}>
+            div.cards#announcments*3 
+        div.trending{trending}>
+            div.cards#trending*3 
+```
+
+```css
+content{
+    grid-area 2/2/4/-1
+    display grid | columns: 4fr 1fr
+}
+project{
+    column 1/2
+    display grid | column: repeat(2, minmax(100px, 1fr))
+}
+h2{
+    column 1/-1
+}
+an-trend{
+    column 2/3
+    display grid | rows: repeat(2, 1fr)
+}
 ```
