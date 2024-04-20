@@ -79,19 +79,19 @@ space: New, Upload, Share.
 
 ### Psuedo Code
 ```html
-(header container)>
-    div container.search bar>
+(header)>
+    div.search bar>
         input(type='text')
     
     div container.user>
         div conainter.notifacation bell
         img.user avatar
         span.user name{user name}
-    div container.user main>
-        img.user avatar main
+    div.main>
+        img. avatar main
         p.greet{'Hi, there'}
-        span.user name main{User Name}+span.user handle{handle}
-    div conainter.buttons>
+        span. name main{User Name @ Handle}
+    div.buttons>
         button.new+button.upload+button.share
 ```
 ```css
@@ -111,6 +111,10 @@ usermain{
     grid
     grid template 1fr 1fr/auto 1fr
     gap
+}
+
+buttons{
+    grid 3*1fr align/justify:center gap 10px
 }
 ```
 
