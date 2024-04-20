@@ -99,9 +99,6 @@ body{
 .projects {
     grid-column: 1/2;
 }
-.Announcments {
+.Announcments, .Trending {
     grid-column: 2/3;
-}
-.Trending {
-    grid-column:2/3
 }
