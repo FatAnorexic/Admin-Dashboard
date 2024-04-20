@@ -54,6 +54,16 @@ body{
     height: 20%;
 }
 
+.user.main {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+}
+img.user.avatar.main {
+    grid-area: 1/1/3/2;
+}
+
 .search-bar,.user, .main, .buttons{
     /* temporary */
     border: 1px dotted green;
