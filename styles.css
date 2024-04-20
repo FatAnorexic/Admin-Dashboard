@@ -87,4 +87,22 @@ body{
 .content{
     background-color: gray;
     grid-area: 2/2/4/-1;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.projects,.Announcments,.Trending{
+    /* temp */
+    border: 2px dotted orange
+}
+.projects {
+    grid-area: 1/1/2/2;
+}
+.Announcments {
+    grid-area: 1/2/2/3;
+}
+.Trending {
+    grid-area: 2/2/3/3;
 }

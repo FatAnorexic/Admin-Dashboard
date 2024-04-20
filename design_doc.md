@@ -138,5 +138,9 @@ trending project.
 ```html
 div.content>
     div.projects{Projects}>
-        div.cards#projects*6 + div.cards#announcments*3 + div.cards#trending*3 
+        div.cards#projects*6 + 
+    div.announcements{announcments}>
+        div.cards#announcments*3 
+    div.trending{trending}>
+        div.cards#trending*3 
 ```
