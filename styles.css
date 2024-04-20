@@ -90,6 +90,7 @@ body{
     display: grid;
     grid-template-columns: 4fr 1fr;
 
+
 }
 
 .projects,.Announcments,.Trending{
@@ -98,6 +99,11 @@ body{
 }
 .projects {
     grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+}
+h2{
+    grid-column: 1/-1;
 }
 .Announcments, .Trending {
     grid-column: 2/3;
