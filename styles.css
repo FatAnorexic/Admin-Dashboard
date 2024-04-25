@@ -30,6 +30,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+}
+
+.icon{
+    width: 3rem;
+    filter: invert(1);
 }
 
 .items{
