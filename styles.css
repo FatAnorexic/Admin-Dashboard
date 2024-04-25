@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Slab:wght@100..900&display=swap');
 
+:root{
+    font-family: "Roboto Slab",serif;
+}
 
 body{
     min-height: 100vh;

@@ -1,3 +1,8 @@
+# Page
+## Fonts
+-Roboto Slab: Google (https://fonts.google.com/?query=roboto)
+
+
 ## Images
 ### Dahsboard
 -view-dashboard: Google (https://pictogrammers.com/library/mdi/icon/view-dashboard/)
