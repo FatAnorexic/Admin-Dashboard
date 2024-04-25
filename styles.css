@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 :root{
-    font-family: "Roboto Slab",serif;
+    font-family: "Roboto Slab","Poppins",sans-serif,--apple-system, system-ui;
 }
 
 body{
