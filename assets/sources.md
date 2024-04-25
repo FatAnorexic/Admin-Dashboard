@@ -20,3 +20,4 @@
 -magnify: Google (https://pictogrammers.com/library/mdi/icon/magnify/)
 -bell ring outline: Google (https://pictogrammers.com/library/mdi/icon/bell-ring-outline/)
 -bell ring: Google (https://pictogrammers.com/library/mdi/icon/bell-ring/)
+-Penguin-1/Penguine-2: Microsoft Co-pilot powered by Dall-E
