@@ -19,7 +19,7 @@ body{
 
 /* Sidbar css content */
 .sidebar{
-    background-color: #38bdf8;
+    background-color: #287292;
     grid-area: 1/1/-1/2;
     display: grid;
     grid-template-rows: min-content min-content;
