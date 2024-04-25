@@ -92,6 +92,10 @@ li{
 .bell{
     width: 2rem;
 }
+.user.avatar{
+    width: 4rem;
+    border-radius: 2rem;
+}
 
 .main {
     display: grid;
