@@ -105,6 +105,8 @@ li{
 }
 .avatar.main {
     grid-area: 1/1/3/2;
+    width: 6rem;
+    border-radius: 3rem;
 }
 
 .buttons {
