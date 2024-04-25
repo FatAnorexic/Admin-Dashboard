@@ -36,6 +36,17 @@ body{
     list-style-type: none;
 }
 
+li{
+    display: flex;
+    gap:10px;
+    color: white;
+    align-items: center;
+}
+.icon-shape{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 /* Header section */
 
 .header{
