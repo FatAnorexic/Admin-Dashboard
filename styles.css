@@ -41,6 +41,8 @@ body{
 
 .icon{
     width: 3rem;
+}
+.icon, .icon-shape{
     filter: invert(1);
 }
 
