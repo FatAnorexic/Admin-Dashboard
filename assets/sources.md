@@ -21,3 +21,10 @@
 -bell ring outline: Google (https://pictogrammers.com/library/mdi/icon/bell-ring-outline/)
 -bell ring: Google (https://pictogrammers.com/library/mdi/icon/bell-ring/)
 -Penguin-1/Penguine-2: Microsoft Co-pilot powered by Dall-E
+
+### Content
+-Bookmark-outline: Google (https://pictogrammers.com/library/mdi/icon/bookmark-outline/)
+-Bookmark: Google (https://pictogrammers.com/library/mdi/icon/bookmark/)
+-eye-plus-outline: GreenTurtwig (https://pictogrammers.com/library/mdi/icon/eye-plus-outline/)
+-eye: Google (https://pictogrammers.com/library/mdi/icon/eye/)
+-share-all-outline: sergiocarlotto (https://pictogrammers.com/library/mdi/icon/share-all-outline/)
