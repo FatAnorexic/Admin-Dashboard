@@ -149,6 +149,9 @@ h2{
     /* temp */
     border: 2px dotted red;
 }
+.share, .watch, .bookmark{
+    width: 1rem;
+}
 
 .an-trend{
     grid-column: 2/3;
