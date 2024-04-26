@@ -163,6 +163,11 @@ h2{
     flex-direction: column;
     justify-content: space-around;
 }
+
+.trending-avatar{
+    width: 4rem;
+    border-radius: 2rem;
+}
 #Announcments,#Trending{
     /* temp */
     border: 2px dotted black;

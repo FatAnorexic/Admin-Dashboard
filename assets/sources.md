@@ -28,3 +28,4 @@
 -eye-plus-outline: GreenTurtwig (https://pictogrammers.com/library/mdi/icon/eye-plus-outline/)
 -eye: Google (https://pictogrammers.com/library/mdi/icon/eye/)
 -share-all-outline: sergiocarlotto (https://pictogrammers.com/library/mdi/icon/share-all-outline/)
+-cat/unicorn/powerpuff: MS copilot Dall-E
