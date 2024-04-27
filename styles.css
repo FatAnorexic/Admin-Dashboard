@@ -184,10 +184,10 @@ h2{
     width: 1.5rem;
 }
 
-.an-trend{
+aside{
     grid-column: 2/3;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
 }
 .Announcments, .Trending{
     display: flex;
