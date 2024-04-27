@@ -18,7 +18,7 @@ body{
 }
 
 /* Sidbar css content */
-.sidebar{
+nav{
     background-color: #287292;
     grid-area: 1/1/-1/2;
     display: grid;
@@ -63,7 +63,7 @@ li{
 
 /* Header section */
 
-.header{
+header{
     grid-area: 1/2/2/4;
     display: grid;
     grid-template: 1fr 2fr/2fr 1fr;
@@ -123,7 +123,7 @@ li{
 }
 
 /* Content section */
-.content{
+main{
     background-color: gray;
     grid-area: 2/2/4/-1;
     display: grid;
