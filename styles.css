@@ -166,15 +166,22 @@ h2{
     border-radius: 1rem 0 0 1rem;
 }
 
+/* Card content */
+.project-info{
+    padding-left: 10px;
+}
+
 /* Card image icons */
 .image-container {
     display: flex;
     justify-content: end;
     align-items: end;
     gap: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
-.share, .watch, .bookmark{
-    width: 1rem;
+.actions{
+    width: 1.5rem;
 }
 
 .an-trend{
