@@ -149,6 +149,14 @@ h2{
     /* temp */
     border: 2px dotted red;
 }
+
+/* Card image icons */
+.image-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+}
 .share, .watch, .bookmark{
     width: 1rem;
 }
