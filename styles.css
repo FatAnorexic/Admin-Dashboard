@@ -145,9 +145,19 @@ li{
 h2{
     grid-column: 1/-1;
 }
+
+/* Cards */
 #projects{
     /* temp */
     border: 2px dotted red;
+}
+.cards{
+    display: grid;
+    grid-template-rows:auto 1fr;
+    grid-template-columns: 1rem 1fr;
+}
+.color{
+    grid-row: 1/-1;
 }
 
 /* Card image icons */
