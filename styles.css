@@ -128,8 +128,7 @@ main{
     grid-area: 2/2/4/-1;
     display: grid;
     grid-template-columns: 3fr 1fr;
-
-
+    gap: 1rem;
 }
 
 .projects,.Announcments,.Trending{
@@ -142,7 +141,8 @@ main{
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-template-rows: min-content repeat(3, minmax(15rem, min-content));
     gap: 1rem;
-    padding: 0.5rem 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
 }
 .proj-head{
     grid-column: 1/-1;
@@ -199,7 +199,6 @@ aside{
 }
 .trend-cont{
     justify-content: end;
-    /* padding-bottom: 0.5rem; */
 }
 
 .Announcments, .Trending{
