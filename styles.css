@@ -188,19 +188,11 @@ main{
 aside{
     grid-column: 2/3;
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
     padding-right: 2rem;
     padding-bottom: 0.5rem;
-
+    align-items: center;
 }
-.announce-cont, .trend-cont{
-    display: flex;
-    flex-direction: column;
-}
-.trend-cont{
-    justify-content: end;
-}
-
 .Announcments, .Trending{
     display: flex;
     flex-direction: column;
