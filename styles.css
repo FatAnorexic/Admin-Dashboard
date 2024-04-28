@@ -127,7 +127,7 @@ main{
     background-color: gray;
     grid-area: 2/2/4/-1;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 
 
 }
@@ -188,14 +188,20 @@ aside{
     grid-column: 2/3;
     display: grid;
     grid-template-rows: repeat(4, auto);
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+
 }
 .Announcments, .Trending{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background: white;
-    border-radius: 2rem;
     padding: 10px;
+}
+.line{
+    width: 100%;
+    border: 1px solid lightgray;
 }
 
 
