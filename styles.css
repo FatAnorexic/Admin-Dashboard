@@ -129,12 +129,7 @@ main{
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1rem;
-    padding: 0.3rem 0.5rem 0.5rem 0.3rem;
-}
-
-.projects,.Announcments,.Trending{
-    /* temp */
-    border: 2px dotted orange
+    padding: 0.3rem 1.5rem 0.5rem 1.5rem;
 }
 .projects {
     grid-column: 1/2;
@@ -149,10 +144,6 @@ main{
 }
 
 /* Cards */
-#projects{
-    /* temp */
-    border: 2px dotted red;
-}
 .cards{
     display: grid;
     grid-template-rows:auto 1fr;
