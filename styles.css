@@ -144,7 +144,7 @@ main{
     gap: 1rem;
     padding: 0.5rem 2rem;
 }
-h2{
+.proj-head{
     grid-column: 1/-1;
 }
 
@@ -198,10 +198,6 @@ aside{
     padding: 10px;
 }
 
-#Announcments,#Trending{
-    /* temp */
-    border: 2px dotted black;
-}
 
 /* Trending */
 .Trending{
