@@ -102,6 +102,10 @@ header {
     width: 4rem;
     border-radius: 2rem;
 }
+.sub.name {
+    font-weight: 700;
+    font-size: larger;
+}
 
 .main {
     display: grid;
