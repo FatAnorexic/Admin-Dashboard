@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 :root{
-    font-family: "Roboto Slab","Poppins",sans-serif,--apple-system, system-ui;
+    --font: "Roboto Slab","Poppins",sans-serif,--apple-system, system-ui;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     margin: 0;
     grid-template-rows: min-content 4fr;
     grid-template-columns: 1fr 4fr;
+    font-family: var(--font);
 }
 
 .sidebar, .content, .header{
@@ -125,7 +126,7 @@ button {
     background-color: #00c0ff;
     border: 0px;
     height: 2rem;
-    font-family: 'Roboto Slab';
+    font-family: var(--font);
     font-size: medium;
     font-weight: 800;
     color: #FFFFFF;
