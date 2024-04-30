@@ -112,6 +112,14 @@ header {
     width: 6rem;
     border-radius: 3rem;
 }
+p.greet {
+    font-size: smaller;
+    
+}
+span.name {
+    font-size: x-large;
+    font-weight: bold;
+}
 
 .buttons {
     display: grid;
