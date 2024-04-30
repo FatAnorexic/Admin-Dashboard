@@ -132,11 +132,6 @@ button {
     color: #FFFFFF;
 }
 
-.search-bar,.user, .main, .buttons{
-    /* temporary */
-    border: 1px dotted green;
-}
-
 /* Content section */
 main{
     background-color: #dbd1d1;
