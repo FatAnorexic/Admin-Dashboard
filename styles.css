@@ -69,6 +69,7 @@ header {
     display: inline-grid;
     grid-template: min-content min-content/2fr auto;
     background-color: #FAF9F6;
+    padding: 0rem 1rem 0.5rem 1rem;
 }
 .search-icon{
     width: 1.5rem;
@@ -103,7 +104,6 @@ header {
 
 .main {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: auto 1fr;
     gap: 0.2rem;
 }
