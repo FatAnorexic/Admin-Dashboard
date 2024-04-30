@@ -4,11 +4,11 @@
     font-family: "Roboto Slab","Poppins",sans-serif,--apple-system, system-ui;
 }
 
-body{
+body {
     min-height: 100vh;
     display: grid;
     margin: 0;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: min-content 4fr;
     grid-template-columns: 1fr 4fr;
 }
 
@@ -63,12 +63,11 @@ li{
 
 /* Header section */
 
-header{
+header {
     grid-area: 1/2/2/4;
-    display: grid;
-    grid-template: 1fr 2fr/2fr 1fr;
+    display: inline-grid;
+    grid-template: min-content min-content/2fr auto;
 }
-
 .search-icon{
     width: 1.5rem;
 }
