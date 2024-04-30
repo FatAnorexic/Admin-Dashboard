@@ -108,15 +108,15 @@ header {
     gap: 1rem;
 }
 .avatar.main {
-    grid-area: 1/1/3/2;
     width: 6rem;
     border-radius: 3rem;
 }
-p.greet {
+.greet {
     font-size: smaller;
-    
+    display: grid;
+    align-content: space-between;
 }
-span.name {
+.name.main {
     font-size: x-large;
     font-weight: bold;
 }
@@ -131,13 +131,14 @@ span.name {
 }
 button {
     border-radius: 1rem;
-    background-color: #00c0ff;
+    background-color: #0280aa;
     border: 0px;
     height: 2rem;
+    width: 6rem;
     font-family: var(--font);
     font-size: medium;
     font-weight: 800;
-    color: #FFFFFF;
+    color: #FAF9F6;
 }
 
 /* Content section */
