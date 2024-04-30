@@ -90,12 +90,13 @@ header {
 
 .user {
     display: grid;
-    grid-template-columns: min-content min-content min-content;
-    gap:1rem;
+    grid-template-columns: repeat(2,min-content) auto;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
 }
 .bell{
-    width: 2rem;
+    width: 1.5rem;
 }
 .user.avatar{
     width: 4rem;
