@@ -67,7 +67,7 @@ header {
     grid-area: 1/2/2/4;
     display: inline-grid;
     grid-template: min-content min-content/2fr auto;
-    background-color: #fffff0;
+    background-color: #FAF9F6;
 }
 .search-icon{
     width: 1.5rem;
