@@ -13,11 +13,6 @@ body {
     font-family: var(--font);
 }
 
-.sidebar, .content, .header{
-    border: 1px solid black;
-    /* text-align: center; */
-}
-
 /* Sidbar css content */
 nav{
     background-color: #287292;
@@ -25,11 +20,6 @@ nav{
     display: grid;
     grid-template-rows: min-content min-content;
     margin: 0;
-}
-
-.logo, .items{
-    /* temporary */
-    border: 1px dotted red;
 }
 
 .logo{
@@ -70,6 +60,8 @@ header {
     grid-template: min-content min-content/2fr auto;
     background-color: #FAF9F6;
     padding: 0rem 1rem 0.5rem 1rem;
+    position: relative;
+    box-shadow: 0px 3px 0px rgba(0,0,0,0.10);
 }
 .search-icon{
     width: 1.5rem;
