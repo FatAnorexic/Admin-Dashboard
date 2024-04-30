@@ -113,8 +113,19 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    align-items: end;
+    gap: 1em;
+    padding: 0rem 1rem 1rem 0rem;
+}
+button {
+    border-radius: 1rem;
+    background-color: #00c0ff;
+    border: 0px;
+    height: 2rem;
+    font-family: 'Roboto Slab';
+    font-size: medium;
+    font-weight: 800;
+    color: #fae1e4;
 }
 
 .search-bar,.user, .main, .buttons{
