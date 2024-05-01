@@ -206,6 +206,9 @@ aside{
     padding: 10px;
     box-shadow: 0px 7px 10px rgba(0,0,0, 0.3);
 }
+p.describe {
+    font-size: x-small;
+}
 .line{
     width: 100%;
     border: 1px solid lightgray;
@@ -218,7 +221,7 @@ aside{
 }
 .trend{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 1fr;
     gap: 10px
 }
 .trending-avatar{
