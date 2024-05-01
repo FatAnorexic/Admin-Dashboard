@@ -3,6 +3,8 @@ Looking at the image
 ![dashboard-template](dashboard-project.png)
 There are three main areas: The dashboard side bar; The header with several buttons and a search bar; the content page-which has two subsections(Projects and Announcments). The general approach will be to use grid to create cells for these main sections. The inner content of each section will either use grid or flex box to separate content.
 
+A mathjax script is imported into the head, as a means to display math symbols on the page. 
+
 ### Psuedo Code
 ```html
 body>
@@ -15,20 +17,22 @@ body{
     min-height 100vh /*This makes the grid fill the entire view port*/
     display grid
     margin 0
-    grid template area: 1fr 4fr/1fr 4fr
-}
-
-sidebar, content, header{
-    border(temporaray)
-    text align
+    grid template area: min-content 4fr/1fr 4fr
+    fonts
 }
 
 sidebar{
-    background->light blue
+    background->#287292
     grid area 1/1/-1/2
+    display grid rows min min
+    margin 0
 }
 header{
     grid area 1/2/2/4
+    display inline-grid min min /2fr auto
+    background #FAF9F6
+    padding 
+    box-shadow
 }
 content{
     background->grayish
@@ -166,3 +170,8 @@ announcments, trending{
     display flex | flex-direction: columns| justify-content: space-around
 }
 ```
+
+# Future endeavors
+This project is being submited with no interactivity. Future goals with this page will be to include a light
+dark theme; a property that gets user prefrence for that mode; JS that animates and changes button and icons
+when clicked; and better shading in the search field.
