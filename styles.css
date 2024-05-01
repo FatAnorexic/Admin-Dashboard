@@ -222,6 +222,7 @@ p.describe {
 .trend{
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: center;
     gap: 10px
 }
 .trending-avatar{
