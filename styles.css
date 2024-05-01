@@ -76,7 +76,7 @@ header {
     width: 90%;
     height: 35%;
     border-radius: 1rem;
-    background-color: #dbd1d1;
+    background-color: #dfdfdf;
     border: 0px;
 }
 
@@ -140,7 +140,7 @@ button {
 
 /* Content section */
 main{
-    background-color: #dbd1d1;
+    background-color: #dfdfdf;
     grid-area: 2/2/4/-1;
     display: grid;
     grid-template-columns: 3fr 1fr;
